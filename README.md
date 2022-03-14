@@ -2,7 +2,7 @@
 ***
  **Projeto integrador** - Squad 1
  
- *Bruno Donato | Eduarda Gomes | Fabio Hayasida | Samantha Sales
+ *Bruno Donato | Eduarda Gomes | Fabio Hayasida | Samantha Sales*
 
 # Premissas
  Utilizamos 3 ferramentas para a realização desse projeto, são elas:
