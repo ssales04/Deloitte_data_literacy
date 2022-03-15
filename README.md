@@ -5,8 +5,15 @@ theme:
 <!--_class: invert -->
 # Deloitte Data Literacy
  **Projeto integrador - SQUAD 01**
+ 
+## EQUIPE
 
- *Bruno Donato | Eduarda Gomes | Fabio Hayasida | Samantha Sales*
+ ### Bruno Donato | 
+ ### Eduarda Gomes 
+ ![Captura de tela 2022-03-15 180000](https://user-images.githubusercontent.com/100967007/158482898-6865b89c-4781-43a1-bbee-3f9ba63cda17.png)
+ 
+ ### Fabio Hayasida 
+ ### Samantha Sales*
 
 
 --- 
