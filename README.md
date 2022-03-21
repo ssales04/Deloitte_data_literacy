@@ -1,5 +1,5 @@
 ---
-marp: true
+marp: false
 theme: 
 paginate: true
 ---
@@ -8,6 +8,9 @@ paginate: true
 
 # Deloitte Data Literacy
  **Projeto integrador - SQUAD 01**
+ 
+## EQUIPE
+
 
  ---
 <!--_color: black -->
@@ -16,7 +19,6 @@ paginate: true
 
  ---
 
- 
 
 <!--_class: invert -->
 <!--_color: White -->
@@ -60,7 +62,6 @@ paginate: true
 ### 📍BR - Campinas 
 
 ![bg left](https://user-images.githubusercontent.com/100967007/158489718-859cc489-70f0-498b-a0ca-57017ef67e00.png)
-
 
 ---
 
