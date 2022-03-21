@@ -69,7 +69,7 @@ E a importação da tabela Births como variável tabela.
 tabela = pd.read_excel("Births_Limpa.xlsx")
 
 ```
-# Resultado das análises 
+# Resultado das análises - Base USA
 
 Posto isso, vejamos os resultados das análises realizadas:
 
@@ -147,6 +147,104 @@ Foi possivel concluir que no período de 1969 a 1988 o mês em que mais houve na
 
 Ademais, nasceram menos crianças do gênero feminino do que masculino nesse mês, sendo 3.234.413 mulheres e 3.075.351 homens. 
 
+---
+
+# Análise de dados - Base Brasil
+---
+Para a análise da taxa de nascimentos no Brasil, nos anos 1991, 2000 e 2010, utizamos a base de dados Brasil.csv e disponibilizamos no diretório **Base de dados**.
+
+Utilizando a ferramenta COLAB, realizamos a importação do arquivo **Brasil.csv**, via comando **uploaded = files.upload()**, vejamos:
+
+``` py
+#Importando tabela brasil
+
+from google.colab import files
+uploaded = files.upload()
+
+```
+Importamos a tabela **Brasil.csv** como tabela2 para não entrar em conflito com a análise anterior.
+
+``` py
+#Importando tabela brasil como tabela2
+
+tabela2 = pd.read_csv('brasil.csv', sep=",")
+
+display(tabela2)
+
+```
+![Display tabela Brasil](https://user-images.githubusercontent.com/100967007/159379895-e4b3b5ed-66e7-428a-95b8-a744e5cea58f.png)
+
+Para a demonstração dos gráficos, se fez necessário a importação das bibliotecas **plotly**, **numpy** e **matplotlib**.
+
+``` py
+# Importando bibliotecas.
+
+import plotly.express as px
+import numpy as np
+import matplotlib.pyplot as plt
+```
+---
+# Resultado das análises - Base USA
+
+Posto isso, vejamos os resultados das análises realizadas:
+
+1. **Gráfico de expectativa de vida por ano.**
+
+``` py
+#Criando gráfico de expectativa de vida por ano
+
+# Criando eixos
+dados_x = tabela2['ano']
+dados_y = tabela2['expectativa_vida']
+
+fig = px.line(x = dados_x, y = dados_y, title = 'Expectativa de vida x Ano', height = 400, width = 1000)
+fig.update_yaxes(title = 'IDADE', title_font_color = 'green', ticks = 'inside', tickfont_color= 'Blue')
+fig.update_xaxes(title = 'ANO', title_font_color = 'green', ticks = 'inside', tickfont_color= 'Blue')
+fig.show()
+
+```
+![gráfico de expectativa de vida por ano](https://user-images.githubusercontent.com/100967007/159380367-5835495e-4392-4c75-af3d-84ff48a27dca.png)
 
 
+2. **Gráfico de expectativa de vida por ano.**
 
+``` py
+#Definindo base de dados
+
+populacao_m = tabela2['populacao_mulheres']
+populacao_h = tabela2['populacao_homens']
+
+#Definindo tamanho das barras
+
+barWidth = 0.25
+
+#Definindo tamanho do gráfico
+
+plt.figure(figsize=(11,5))
+
+#Definindo possição das barras
+
+p1 = np.arange(len(populacao_m))
+p2 = [x + barWidth for x in p1]
+
+#Criando as barras
+
+plt.bar(p1, populacao_m, color = '#6A5ACD', width=barWidth, label = 'Mulheres')
+plt.bar(p2, populacao_h, color = '#6495ED', width=barWidth, label = 'Homens')
+
+#Criando legendas
+
+plt.xticks([p + barWidth for p in range(len(populacao_m))],['1991', '2000','2010'])
+plt.ylabel('POPULAÇÃO')
+plt.xlabel('ANO')
+plt.title('Comparativo de população entre homens e mulheres')
+plt.legend()
+plt.show()
+
+```
+
+![Comparativo de população entre homens e mulheres](https://user-images.githubusercontent.com/100967007/159380537-952ddc31-d3a8-401b-9a66-26725de275f3.png)
+
+---
+
+Conclusão Brasil
