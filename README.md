@@ -151,7 +151,7 @@ Ademais, nasceram menos crianças do gênero feminino do que masculino nesse mê
 
 # Análise de dados - Base Brasil
 ---
-Para a análise da taxa de nascimentos no Brasil, nos anos 1991, 2000 e 2010, utizamos a base de dados Brasil.csv e disponibilizamos no diretório **Base de dados**.
+Para a análise da taxa de nascimentos no Brasil, nos anos 1991, 2000 e 2010, utizamos a base de dados **Brasil.csv** e disponibilizamos no diretório **Base de dados**.
 
 Utilizando a ferramenta COLAB, realizamos a importação do arquivo **Brasil.csv**, via comando **uploaded = files.upload()**, vejamos:
 
@@ -184,7 +184,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 ```
 ---
-# Resultado das análises - Base USA
+# Resultado das análises - Base Brasil
 
 Posto isso, vejamos os resultados das análises realizadas:
 
@@ -206,7 +206,7 @@ fig.show()
 ![gráfico de expectativa de vida por ano](https://user-images.githubusercontent.com/100967007/159380367-5835495e-4392-4c75-af3d-84ff48a27dca.png)
 
 
-2. **Gráfico de expectativa de vida por ano.**
+2. **Comparativo de total da população entre homens e mulheres.**
 
 ``` py
 #Definindo base de dados
