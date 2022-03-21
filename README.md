@@ -1,5 +1,5 @@
 ---
-marp: false
+marp: true
 theme: 
 paginate: true
 ---
@@ -9,7 +9,7 @@ paginate: true
 # Deloitte Data Literacy
  **Projeto integrador - SQUAD 01**
  
-## EQUIPE
+
 
 
  ---
