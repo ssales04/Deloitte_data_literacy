@@ -33,7 +33,7 @@ Esse projeto tem como objetivo demonstrar as análises realizadas para o projeto
 ---
 
 
-## Modelagem dos dados
+## Modelagem dos dados - SQL
 
 
 1. Antes de iniciar as análises, realizamos a modelagem dos dados da base denominada como **Births.csv**, e utilizamos a ferramente **SQL**.
