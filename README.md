@@ -78,7 +78,7 @@ Posto isso, vejamos os resultados das análises realizadas:
 ``` py
 Nascimentos_Totais = tabela[["year","gender","births"]].groupby(["year","gender"]).sum()
 
-display(Nascimentos_Totais)
+print(Nascimentos_Totais)
 
 ```
 
@@ -246,7 +246,7 @@ plt.show()
 
 ---
 
-Conclusão Brasil
+# Conclusão Brasil
 
 Durante a análise da população do Brasil, foi possível identificar que a expectativa de vida de homens e mulheres aumentou e que a população de mulheres nos anos em análise, foi sempre superior à população de homens.
 
