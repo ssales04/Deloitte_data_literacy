@@ -123,7 +123,7 @@ Nascimento_por_ano = tabela[["year", "births"]].groupby(["year"]).sum()
 display(Nascimento_por_ano)
 
 ```
-![total de nascimentos por ano](https://user-images.githubusercontent.com/100967007/159377946-a4e3f8a8-8fff-4147-82bb-841c031a95e7.png)
+![total de nascimentos por ano_](https://user-images.githubusercontent.com/100967007/159795522-4812e798-b1f3-40a3-8a73-ddf2d6157b6c.png)
 
 5.  **Total de nascimentos por mês.**
 
