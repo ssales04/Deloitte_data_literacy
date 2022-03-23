@@ -258,6 +258,6 @@ Para a base de dados de nascimentos dos EUA, tambpém realizamos a análise e a 
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/100967007/159504299-3fa536b0-097d-462c-9223-48377c411d15.gif)
 
-Vide arquivo no diretório ** POWER BI**.
+Vide arquivo no diretório **Análise em BI**.
 
 
