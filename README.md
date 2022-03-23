@@ -15,7 +15,7 @@ Esse projeto tem como objetivo demonstrar as análises realizadas para o projeto
 
  * **Microsoft Teams** - Para a elaboração de Kanban, utilizamos a função *TAREFAS* do Microsoft Teams.
  
- * **SQL** - Utilizamos o SQL para realizar a limpeza de linhas nulas, colunas que não foram usadas e demais modelagens de dados;
+ * **Microsoft SQL Server Management Studio** - Utilizamos o SQL para realizar a limpeza de linhas nulas, colunas que não foram usadas e demais modelagens de dados;
  
  * **COLAB (PYTHON)**- O Colab foi utilizado para realizar as análises dos dados e apresentação de gráficos;
  
@@ -36,8 +36,8 @@ Esse projeto tem como objetivo demonstrar as análises realizadas para o projeto
 ## Modelagem dos dados - SQL
 
 
-1. Antes de iniciar as análises, realizamos a modelagem dos dados da base denominada como **Births.csv**, e utilizamos a ferramente **SQL**.
-Assim, limpamos as linhas nulas, colunas que não foram usadas nas análies e demais modelagens de dados, para visualizar tais alterações, vide o arquivo disponibilizado no repositório **Base limpas**. 
+1. Antes de iniciar as análises, realizamos a modelagem dos dados da base denominada como **Births.csv**, e utilizamos a ferramenta **Microsoft SQL Server Management Studio**.
+Assim, limpamos as linhas nulas, e os dados que foram impactados com as alterações e demais modelagens de dados, para visualizar tais alterações, vide o arquivo disponibilizado no repositório **Base limpas**. 
 
 2. Já a base de dados denominada como **Brasil.csv** não passou por modelagem de dados antes de iniciarmos as análises.
 
@@ -46,7 +46,7 @@ Assim, limpamos as linhas nulas, colunas que não foram usadas nas análies e de
 ---
 Para a análise da taxa de nascimentos nos Estados Unidos, desde o ano de 1969, criamos o arquivo **Births_Limpa.xlsx** e disponibilizamos no diretório **Base de dados**.
 
-Utilizando a ferramenta COLAB, realizamos a importação do arquivo **Births_Limpa.xlsx**, via comando **uploaded = files.upload()**, vejamos:
+Utilizando a ferramenta Python (COLAB), realizamos a importação do arquivo **Births_Limpa.xlsx**, via comando **uploaded = files.upload()**, vejamos:
 
 ``` py
 # Importando tabela Births
