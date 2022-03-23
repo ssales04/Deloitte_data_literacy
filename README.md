@@ -81,9 +81,8 @@ Nascimentos_Totais = tabela[["year","gender","births"]].groupby(["year","gender"
 display(Nascimentos_Totais)
 
 ```
-* 1969 até 1975
 
-![Total de nascimentos por ano e genêro ](https://user-images.githubusercontent.com/100967007/159377410-0e677b3b-c777-42b1-919e-8821fa63ee1f.png)
+![Total de nascimentos por ano e genêro 1 ](https://user-images.githubusercontent.com/100967007/159591116-45396082-892c-45ee-a27c-8a70c4d8eadf.png)
 
 2.  **total de nascimentos por gênero.**
 
@@ -249,8 +248,16 @@ plt.show()
 
 Conclusão Brasil
 
+Durante a análise da população do Brasil, foi possível identificar que a expectativa de vida de homens e mulheres aumentou e que a população de mulheres nos anos em análise, foi sempre superior à população de homens.
+
 ---
 
 # Power BI
 
+Para a base de dados de nascimentos dos EUA, tambpém realizamos a análise e a criação de Dashboard utilizando o PowerBI.
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/100967007/159504299-3fa536b0-097d-462c-9223-48377c411d15.gif)
+
+Vide arquivo no diretório ** POWER BI**.
+
+
