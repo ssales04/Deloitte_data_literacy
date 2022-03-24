@@ -260,4 +260,20 @@ Para a base de dados de nascimentos dos EUA, tambpém realizamos a análise e a 
 
 Vide arquivo no diretório **Análise em BI**.
 
+---
+## Principais dificuldades 
+
+- A falta de escopo bem definido e o detalhamento dos entregáveis;  
+- A base de dados continha informações nulas e datas incorretas, o que ocasionou retrabalho;
+- Não foi possível realizar comparação entre as bases pois não possuíam os dados do mesmo período.
+
+---
+
+# Agradecimento
+
+Agradecemos à Deloitte pela oportunidade de participar deste curso, que contribuirá no nosso crescimento profissional e agradecemos, também, aos organizadores e professores pelos conhecimentos compartilhados.
+
+---
+
+
 
